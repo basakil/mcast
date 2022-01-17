@@ -1,0 +1,7 @@
+tempfile*
+__pycache__
+.idea
+build/
+#dist/
+*.spec
+*_out*.txt
