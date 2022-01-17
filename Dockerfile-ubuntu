@@ -1,0 +1,5 @@
+FROM ubuntu:20.04
+MAINTAINER AoB
+COPY dist/mcast /app
+CMD ["/bin/sh", "-c", "trap : TERM INT; sleep 81400s & wait"]
+
